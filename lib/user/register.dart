@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
 
-
-
-
-
 class RegistrationPage extends StatefulWidget {
   const RegistrationPage({super.key});
 

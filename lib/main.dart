@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:smarthaven/register.dart';
-import 'package:smarthaven/user/register.dart';
+import 'package:smarthaven/user/auth.dart';
+import 'package:smarthaven/user/homepage.dart';
+
 
 void main() {
   runApp(const MyApp());
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
         // tested with just a hot reload.
         colorScheme: .fromSeed(seedColor: Colors.deepPurple),
       ),
-      home: RegistrationPage(),
+      home: HomePage(),
     );
   }
 }

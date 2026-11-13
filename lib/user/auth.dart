@@ -77,11 +77,11 @@ class _SmartHavenAuthPageState extends State<SmartHavenAuthPage> {
       prefixIcon: Icon(icon, color: goldLight, size: 23),
       suffixIcon: suffix,
       filled: true,
-      fillColor: Colors.white.withOpacity(0.045),
+      fillColor: Colors.white.withValues(alpha: 0.045),
       contentPadding: const EdgeInsets.symmetric(horizontal: 18, vertical: 19),
       enabledBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(17),
-        borderSide: BorderSide(color: gold.withOpacity(0.17)),
+        borderSide: BorderSide(color: gold.withValues(alpha: 0.17)),
       ),
       focusedBorder: OutlineInputBorder(
         borderRadius: BorderRadius.circular(17),
@@ -180,7 +180,7 @@ class _SmartHavenAuthPageState extends State<SmartHavenAuthPage> {
           ),
 
           // LIGHT DARK OVERLAY
-          Container(color: Colors.black.withOpacity(0.20)),
+          Container(color: Colors.black.withValues(alpha: 0.20)),
 
           // PAGE CONTENT
           SafeArea(
@@ -326,7 +326,7 @@ class _SmartHavenAuthPageState extends State<SmartHavenAuthPage> {
 
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(28),
-        border: Border.all(color: gold.withOpacity(0.25)),
+        border: Border.all(color: gold.withValues(alpha: 0.25)),
 
         gradient: const LinearGradient(
           begin: Alignment.topLeft,
@@ -336,7 +336,7 @@ class _SmartHavenAuthPageState extends State<SmartHavenAuthPage> {
 
         boxShadow: [
           BoxShadow(
-            color: Colors.black.withOpacity(0.38),
+            color: Colors.black.withValues(alpha: 0.38),
             blurRadius: 35,
             offset: const Offset(0, 18),
           ),
@@ -782,7 +782,7 @@ class _SmartHavenAuthPageState extends State<SmartHavenAuthPage> {
         // SECURITY TEXT
         Row(
           children: [
-            Expanded(child: Divider(color: gold.withOpacity(0.35))),
+            Expanded(child: Divider(color: gold.withValues(alpha: 0.35))),
 
             const Padding(
               padding: EdgeInsets.symmetric(horizontal: 12),
@@ -792,7 +792,7 @@ class _SmartHavenAuthPageState extends State<SmartHavenAuthPage> {
               ),
             ),
 
-            Expanded(child: Divider(color: gold.withOpacity(0.35))),
+            Expanded(child: Divider(color: gold.withValues(alpha: 0.35))),
           ],
         ),
 
